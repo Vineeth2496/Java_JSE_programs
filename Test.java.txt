@@ -1,0 +1,24 @@
+class Test
+{
+	private Integer id;
+	private String name;
+	private Float sal;
+	public Test(Integer id, String name, Float sal)
+		{
+		this.id=id;
+		this.name=name;
+		this.sal=sal;
+		}
+	public String Stringto()
+		{
+		return id + "," + name + "," +sal;
+		}
+	public static void main(String[]args)
+	{
+	Test e=new Test(233, "vineeth", 23.97f);
+	System.out.println(e);
+
+
+	}
+
+}
